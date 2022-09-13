@@ -1,13 +1,17 @@
 package BinarySearch;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Scanner;
 
 public class BinarySearch {
 
-	static int[] array = { 2, 4, 5, 6, 7, 45, 67, 89, 876, 5466 };
+	static int[] array = { 123 ,2, 4, 5, 6, 7, 45, 67, 89, 876, 5466 };
 
 	public static void main(String[] args) {
+		
 
+		Arrays.sort(array);
 		System.out.print("Enter element needs to be searched in sorted array: ");
 		Scanner sc = new Scanner(System.in);
 		int x = Integer.parseInt(sc.next());
